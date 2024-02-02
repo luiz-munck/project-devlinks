@@ -76,10 +76,11 @@ body {
 
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
+  animation: slide-back 0.2s;
 }
 
 .light #switch button {
-  left: 50%; 
+  animation: slide-in 0.2s forwards;
 }
 
 #switch button:hover {
@@ -151,4 +152,21 @@ footer {
   font-size: 14px;
   text-align: center;
   padding: 24px 0;
+}
+
+@keyframes slide-in {
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
+}
+@keyframes slide-back {
+  from {
+    left: 50%;
+  }
+  to {
+    left: 0;
+  }
 }
