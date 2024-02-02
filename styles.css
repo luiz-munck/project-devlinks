@@ -52,4 +52,13 @@ ul li a {
   border-radius: 8px;
   text-decoration: none;
   padding: 16px 0;
+
+  transition: background 0.2s;
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+ul li a:hover {
+  background: rgba(0, 0, 0, 0.02);
+  border: 1.5px solid rgba(255, 255, 255, 0.5);
 }
