@@ -67,13 +67,19 @@ body {
   border: 0;
   background: white var(--switch-bg-url) no-repeat center;
   border-radius: 50%;
-  
 
   position: absolute;
   top: 50%;
-  left:0;
+  left: 0;
   transform: translateY(-50%);
   z-index: 1;
+
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(4px);
+}
+
+#switch button:hover {
+  outline: 8px solid var(--highlight-color);
 }
 
 #switch span {
