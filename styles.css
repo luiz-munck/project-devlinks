@@ -33,3 +33,23 @@ body {
   font-weight: 500;
   margin-top: 8px;
 }
+
+ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  list-style: none;
+  padding: 24px 0;
+}
+
+ul li a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 8px;
+  text-decoration: none;
+  padding: 16px 0;
+}
