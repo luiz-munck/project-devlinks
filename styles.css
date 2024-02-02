@@ -18,3 +18,18 @@ body {
   margin: 56px auto 0;
   padding: 0 24px;
 }
+
+#profile {
+  padding: 24px 0;
+  text-align: center;
+}
+
+#profile img {
+  width: 112px;
+  height: 112px;
+}
+
+#profile p {
+  font-weight: 500;
+  margin-top: 8px;
+}
