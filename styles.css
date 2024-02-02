@@ -63,7 +63,7 @@ ul li a:hover {
   border: 1.5px solid rgba(255, 255, 255, 0.5);
 }
 
-#social-links{
+#social-links {
   display: flex;
   padding: 24px 0;
 
@@ -82,7 +82,12 @@ ul li a:hover {
 }
 
 #social-links a:hover {
-  background:rgba(255, 255, 255, 0.2);
-  
+  background: rgba(255, 255, 255, 0.2);
 }
 
+footer{
+  font-weight: 400px;
+  font-size: 14px;
+  text-align: center;
+  padding: 24px 0;
+}
