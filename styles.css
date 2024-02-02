@@ -78,6 +78,10 @@ body {
   -webkit-backdrop-filter: blur(4px);
 }
 
+.light #switch button {
+  left: 50%; 
+}
+
 #switch button:hover {
   outline: 8px solid var(--highlight-color);
 }
